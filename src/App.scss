@@ -3,7 +3,6 @@ $main-color: #4F8C6C;
 $primary-color: #335941;
 $second-color: #77A756;
 
-
 html,
 body, .App {
   height: 100%;
@@ -52,6 +51,7 @@ footer {
 }
 
 header {
+
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   z-index: 1;
   height: 80px;
@@ -74,6 +74,7 @@ header {
 
   }
   a {
+    display: flex;
     font-size: 22px;
     margin: 0 10px;
     color: #fff;
@@ -82,6 +83,10 @@ header {
       margin-right: 5px;
     }
   }
+}
+
+.link-text {
+  display: block;
 }
 
 .detail-link {
@@ -205,6 +210,10 @@ header {
 }
 
 @media (max-width: 480px) {
+  .link-text {
+    display: none;
+  }
+
   .post, .comment {
     flex-direction: column;
     align-items: center;

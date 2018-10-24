@@ -23,12 +23,14 @@ class App extends Component {
                                 </Link>
                                 <div style={{flex: 1}}/>
                                 <Link to="/contact">
-                                    <PermContactCalendar/>
-                                    contact
+                                    <PermContactCalendar className='header-icon'/>
+
+                                    <span className='link-text'>contact</span>
+
                                 </Link>
                                 <Link to="/about">
                                     <Business/>
-                                    about
+                                    <span className='link-text'>about</span>
                                 </Link>
                             </header>
                             <Routing/>
