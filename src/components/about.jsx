@@ -12,7 +12,7 @@ export default class About extends Component {
 
     render() {
         return (
-            <div>1
+            <div>
                 coming soon
             </div>
         );
