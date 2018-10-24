@@ -7,11 +7,12 @@ export default class About extends Component {
     }
 
 
-    componentDidMount() {}
+    componentDidMount() {
+    }
 
     render() {
         return (
-            <div>
+            <div>1
                 coming soon
             </div>
         );
