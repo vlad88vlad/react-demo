@@ -4,7 +4,6 @@ import User from "../imgs/user.svg";
 export default class CommentTemplate extends Component {
     constructor(props) {
         super(props);
-        this.state = {};
     }
 
 
